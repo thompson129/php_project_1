@@ -1,0 +1,17 @@
+{
+    "name": "thawzinmoemyint/project_1",
+    "authors": [
+        {
+            "name": "Thaw Zin Moe Myint"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "Libs\\": "_classes/Libs/",
+            "Helpers\\": "_classes/Helpers/"
+        }
+    }
+}
